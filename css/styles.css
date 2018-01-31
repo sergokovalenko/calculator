@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font:62.5%/1 "Droid Sans", "Lucida Sans Unicode", Verdana, Arial;
+    text-align: center;
+    background-color: gray;
+}
+
+#calc{
+    width: 480px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+}
+
+.top-line{
+    margin-top: 5%;
+    height: 100px;
+}
+
+.top-line .btn{
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#screen{
+    float: right;
+    width: 330px;
+    height: 70px;
+    display: inline-block;
+    margin: 15px 15px 0 0;
+    box-shadow: inset 0 0 10px;
+    padding-top: 18px;
+    padding-right: 10px;
+    background: hsl(90,20%,30%);
+	border-radius: 10px;
+	box-shadow: inset 2px 2px 2px 5px rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+    letter-spacing: -5px;
+    text-align: right;
+}
+
+.btn{
+    font-size: 30px;
+    width: 90px;
+    height: 70px;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to top, hsl(90,20%,30%) 25%, #A19887 90%);
+}
